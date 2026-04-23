@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm install --prefix .. --no-audit --no-fund && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
